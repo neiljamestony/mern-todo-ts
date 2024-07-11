@@ -18,6 +18,7 @@ app.use(
       "http://localhost:3000",
       "https://mern-todo-fe.vercel.app",
       "http://localhost:5173",
+      "https://mern-todo-fe-git-master-neil-james-tony-perdigons-projects.vercel.app",
     ],
   })
 );
