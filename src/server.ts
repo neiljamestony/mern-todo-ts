@@ -14,7 +14,7 @@ const MONGO_URI: any = process.env.MONGO_URI;
 db(MONGO_URI);
 app.use(
   cors({
-    origin: "*",
+    origin: ["http://localhost:3000", "https://mern-todo-fe.vercel.app"],
   })
 );
 app.use(express.json());
